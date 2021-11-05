@@ -20,7 +20,7 @@ print(hello[0:5] + ', ' + world[0:5] + '! ' + world * 2 + (hello * 2)[0:11] + '!
 # Запомните! Строки всегда индексируются с 0.
 
 python = "Python"
-
+5
 p_letter = python[0].lower() + python[2:4] + python[-1]  # Используйте переменную python для получения строки "pthn".
 print(p_letter)
 ########

@@ -54,5 +54,4 @@ print(c)
 
 d = a.intersection(b)
 
-
 print(d)

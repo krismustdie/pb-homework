@@ -1,19 +1,10 @@
-# создаём пустые словари
-surname = {}
-name = {}
-patr = {}
-birth_year = {}
-disease = {}
-# считываем данные призывников
-for i in range(1, 3):
-    name[str(i)] = input("Введите имя: ")
-    surname[str(i)] = input("Введите фамилию: ")
-    patr[str(i)] = input("Введите отчество: ")
-    birth_year[str(i)] = input("Введите год рождения: ")
-    disease[str(i)] = input("Введите имеющееся заболевание или 'нет', в случае их отсутствия: ")
-# выводим данные
-print('{:25s}{:25s}{:25s}{:25s}{:25s}{:25s}'.format("№", 'Фамилия', 'Имя', 'Отчество', 'Год рождения', 'Заболевание'))
-for i in range(1, 3):
-    k = str(i)
-    print(
-        '{:25s}{:25s}{:25s}{:25s}{:25s}{:25s}'.format(k, surname[k], name[k], patr[k], birth_year[k], disease[k]))
+soldiers = {}
+for _ in range(5):
+    name = str(input('Введите ФИО: '))
+    soldiers[name] = (input("Введите год рождения и заболевание: ").split(" "))
+
+print(f'{"№":2}{"ФИО":40}{"Год рождения":25}{"Заболевание":25}')
+n = 1
+for key, value in soldiers.items():
+    print(f'{str(n):2}{key:40}{value[0]:25}{value[1]:25}')
+    n += 1
