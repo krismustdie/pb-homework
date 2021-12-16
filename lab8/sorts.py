@@ -15,7 +15,7 @@ def Bubble_Sort(A):  # Обменная сортировка (метод пуз�
     return A
 
 
-def Merge_Sort(A):
+def Merge_Sort(A): # Сортировка слиянием
     if len(A) <= 1:
         return A
     else:
