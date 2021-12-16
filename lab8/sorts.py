@@ -57,7 +57,7 @@ def Insert_Sort(A):  # Сортировка простыми вставками
     return A
 
 
-def Quick_Sort(A):
+def Quick_Sort(A): # Быстрая сортировка
     less = []
     equal = []
     greater = []
