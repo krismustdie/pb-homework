@@ -5,7 +5,7 @@ print("a = " + str(a))  # Функция str() используется для �
 
 print("b = " + "str(b)")
 
-hello = "Привет"
+hello = "Пока"
 
 print("hello = " + str(hello))
 
