@@ -7,7 +7,7 @@ print("b = " + "str(b)")
 
 hello = "Пока"
 
-print("hello = " + str(hello))
+print("bye = " + str(hello))
 
 # Переопределите значение переменной hello
 hello = 'Здравствуй'
